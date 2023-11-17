@@ -1,0 +1,28 @@
+<xpath expr="/t/t/div[2]/div[1]/div[14]/div/span" position="after">
+    <div t-if="o.partner_shipping_id.country_id.code == 'GB'">
+        <br/>
+        <span></span>
+    </div>
+    <div t-if="o.partner_shipping_id.country_id.code == 'CL'">
+        <span>
+            <p>
+                Die Lieferung ist nach § 4 Nr. 1a UStG steuerbefreit.<br/>
+                El exportador de los productos incluidos en el presente documento (autorización aduanera o de la autoridad gubernamental competente no DE/8800/EA/0465) declara que, salvo indicación en sentido contrario, estos productos gozan de un origen preferencial Eurpean Union.<br/>
+                Der Ausführer (Ermächtigter Ausführer; Bewilligung der Zollbehörde oder der zuständigen Regierungsbehörde<br/>
+                Nr. DEREX88000211) der Waren, auf die sich dieses Handelspapier bezieht, erklärt, dass diese Waren, soweit<br/>
+                nicht anders angegeben, präferenzbegünstigte Ursprungswaren der Europäischen Gemeinschaft sind<br/>
+                The exporter of the products covered by this document (customs authorisation No Nr.Nr. DEREX88000211(1)) declares that,<br/>
+                except where otherwise clearly indicated, these products are of European Union (2) preferential origin.<br/>
+            </p>
+        </span>
+    </div>
+    <div t-if="o.partner_shipping_id.country_id.code == 'CH'">
+        <br/>
+        <span>
+            <p>Der Ausführer (Ermächtigter Ausführer; Bewilligung der Zollbehörde oder der zuständigen Regierungsbehörde<br/>
+                Nr. DE/8800/EA/0465) der Waren, auf die sich dieses Handelspapier bezieht, erklärt, dass diese Waren, soweit nicht anders angegeben, präferenzbegünstigte Ursprungswaren der Europäischen Gemeinschaft sind.</p>
+            <p><br/>The exporter of the products covered by this document (customs authorisation No Nr. DE/8800/EA/0465 (1)) declares that, except where otherwise clearly indicated, these products are of European Union (2) preferential origin.</p>
+            <p><br/></p>
+        </span>
+    </div>
+</xpath>
