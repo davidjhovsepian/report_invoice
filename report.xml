@@ -1,7 +1,18 @@
 <xpath expr="/t/t/div[2]/div[1]/div[14]/div/span" position="after">
     <div t-if="o.partner_shipping_id.country_id.code == 'GB'">
-        <br/>
-        <span></span>
+     <span>
+      <p>Custom No 23091070
+         Custom No 23091013
+         UK EORI Nr.:GB077249974000
+         EU EORI Nr.:DE919646750606256
+         REX Number: DEREX88000211</br>
+           Der Ausführer (Ermächtigter Ausführer; Bewilligung der Zollbehörde oder der zuständigen Regierungsbehörde
+           Nr. DEREX88000211) der Waren, auf die sich dieses Handelspapier bezieht, erklärt, dass diese Waren, soweit
+           nicht anders angegeben, präferenzbegünstigte Ursprungswaren der Europäischen Gemeinschaft sind
+           The exporter of the products covered by this document (customs authorisation No Nr.Nr. DEREX88000211(1)) declares that,
+           except where otherwise clearly indicated, these products are of European Union (2) preferential origin.
+      </p>
+     </span>
     </div>
     <div t-if="o.partner_shipping_id.country_id.code == 'CL'">
         <span>
